@@ -45,4 +45,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edtScore" />
 
+    <Button
+        android:id="@+id/btnSelectbyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="模糊查詢"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnSave"
+        app:layout_constraintTop_toBottomOf="@+id/btnSave" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="更新"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnSelectbyName"
+        app:layout_constraintTop_toBottomOf="@+id/btnSelectbyName" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
